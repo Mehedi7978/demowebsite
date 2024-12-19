@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.box1 {
+    display: flex;           /* Align children in a row */
+    gap: 10px;               /* Space between boxes */
+    flex-wrap: wrap;         /* Allow items to wrap onto new lines */
+    padding: 1%; 
+    justify-content: center;            /* Padding around the container */
+    height: auto;            /* Adjust height based on content */
+    max-height: 1400px;       /* Optional: limit height if needed */
+    width: 50%;             /* Take full width of the parent container */
+    background: linear-gradient(135deg, #333, #037e2c);
+
+   
+
+    margin: 2% auto;         /* Center the container with spacing */
+    box-sizing: border-box;
+    position: relative; /* Change to relative for normal flow */  /* Ensure padding doesn't affect box dimensions */
+    max-height: none; /* Remove any height restriction */
+}
+@media screen and (max-width:1072px){
+  
+
+  .box1{
+    width: 88%;
+  }
+}
+  
+  
+  /* Styles for each book box */
+  .book1 {
+    background-color: rgba(7, 7, 7, 0.5);/*transparent look */ /* Background for visibility */
+    display: flex;
+    flex-direction: column;              /* Flex container to center text */
+    justify-content: center;    /* Center text horizontally */
+    align-items: center;        /* Center text vertically */
+    color: white;               /* Text color */
+    padding: 10px;              /* Padding inside the box */
+    word-wrap: break-word;      /* Break long words to prevent overflow */
+    overflow-wrap: break-word;  /* Ensure long words break onto the next line */
+    width: 100%;                /* Make each box flexible to its parent container */
+    max-width: 150px;           /* Optional: maximum width for each box */
+    height: 100px;              /* Fixed height for each box */
+    text-align: center;         /* Center text inside the box */
+    margin: 5px;                /* Space between boxes */
+    box-sizing: border-box; 
+    height: 200px;
+    width: auto;
+    box-shadow: 5px 5px 10px rgb(189, 184, 194) ;
+    overflow-y: hidden;
+   
+  }
+
+  .book1:hover
+  {
+    transform: scale(1.1);
+  }
+
+
+
+  .book2{
+    height:75%;
+    width: 60%;
+   
+  }
+
+
+#sea{
+    max-width: 1200px;
+    width: 100%;
+    height:70px;
+
+}
+
+a{
+  text-decoration: none;
+  color:#048636;
+  margin-top: 4%;
+}
+
+
+
